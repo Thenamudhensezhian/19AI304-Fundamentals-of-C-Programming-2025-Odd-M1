@@ -26,7 +26,19 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+~~~
+#include <stdio.h>
+int main()
+{
+    char c1,c2,c3;
+    scanf("%c %c %c",&c1,&c2,&c3);
+    printf("The reverse of %c%c%c is %c%c%c\n",c1,c2,c3,c3,c2,c1);
+    return 0;
+}
+~~~
 # Output:
+<img width="936" height="342" alt="image" src="https://github.com/user-attachments/assets/1314b41e-6d14-48a8-a69d-a5fc14d62e19" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -57,7 +69,26 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+~~~
+#include <stdio.h>
+int main() {
+    int num;
+    scanf("%d", &num);
+    if (num == 0) {
+        printf("number is 0");
+    } 
+    else if (num > 0) {
+        printf("number is positive");
+    } 
+    else {
+        printf("number is negative");
+    }
+    return 0;
+}
+~~~
 # Output:
+<img width="786" height="482" alt="image" src="https://github.com/user-attachments/assets/2f623284-ef43-4067-8b6b-33de18f44417" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -81,7 +112,19 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+~~~
+#include <stdio.h>
+int main() {
+    int a, b, min;
+    scanf("%d %d", &a, &b);
+    min = (a < b) ? a : b;
+    printf("Minimum between %d and %d is %d", a, b, min);
+    return 0;
+}
+~~~
 # Output:
+<img width="1050" height="260" alt="image" src="https://github.com/user-attachments/assets/57be6d25-6888-4ced-b67b-afd74a10052e" />
+
 # Result: 
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
@@ -120,7 +163,20 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+~~~
+#include <stdio.h>
+int main() {
+    int num;
+    scanf("%d", &num);
+    if (num == 1) {
+        printf("TRUE");
+    }
+    return 0;
+}
+~~~
 # Output:
+<img width="544" height="304" alt="image" src="https://github.com/user-attachments/assets/560c7cf9-32f8-40e0-8160-b1bc0050f97c" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -165,7 +221,24 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+~~~
+#include <stdio.h>
+int main()
+{
+    float A,B,C,D,E,F,tm,av,p;
+    scanf("%f%f%f%f%f%f",&A,&B,&C,&D,&E,&F);
+    tm=(A+B+C+D+E+F);
+    av=(tm/6);
+    p=av;
+    printf("Total marks = %.2f\n",tm);
+    printf("Average marks = %.2f\n",av);
+    printf("Percentage = %.2f\n",p);
+    return 0;
+}
+~~~
 # Output:
+<img width="989" height="540" alt="image" src="https://github.com/user-attachments/assets/7bc50c39-621e-4084-b5c3-1a128d01d388" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
